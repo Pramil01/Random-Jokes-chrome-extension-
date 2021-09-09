@@ -1,0 +1,12 @@
+{
+    "name": "Random Jokes",
+    "description": "Provides a joke when called to lighten the mood of the user",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons":{"128":"Rj128.png"},
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {"19":"Rj19.png"}
+    },
+    "permissions":["activeTab","scripting","storage"]
+}
